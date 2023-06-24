@@ -1,71 +1,45 @@
-# copy-flow README
+# Copy Flow
 
-This is the README for your extension "copy-flow". After writing up a brief description, we recommend including the following sections.
+Copy Flow provides convenient copy and paste functionality within Visual Studio Code. It adds two buttons to the editor toolbar for copying and pasting content.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Copy the contents of the active editor to the clipboard.
+- Paste the clipboard content into the active editor, replacing the existing content.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code version 1.60.0 or higher.
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Launch Visual Studio Code.
+2. Go to the Extensions view by clicking on the square icon in the sidebar.
+3. Search for "Copy Paste" in the Extensions Marketplace.
+4. Click the Install button for the "Copy Paste" extension.
+5. Once installed, you will see the Copy and Paste buttons in the editor toolbar.
 
-For example:
+## Usage
 
-This extension contributes the following settings:
+- Copy: Click the Copy button in the editor toolbar to copy the contents of the active editor to the clipboard.
+- Paste: Click the Paste button in the editor toolbar to replace the contents of the active editor with the clipboard content.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Contributing
 
-## Known Issues
+Contributions to this extension are welcome! To contribute:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes in your branch.
+4. Commit your changes with clear and descriptive commit messages.
+5. Push your changes to your forked repository.
+6. Submit a pull request detailing the changes you made.
 
-## Release Notes
+## Feedback and Support
 
-Users appreciate release notes as you update your extension.
+- For bug reports and feature requests, please create an issue on the [GitHub repository](https://github.com/your-username/copy-paste-extension).
+- For general questions and discussions, you can reach out to us on the [VSCode Extension Community](https://community.visualstudio.com/spaces/41/index.html) forum.
 
-### 1.0.0
+## License
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](LICENSE).
