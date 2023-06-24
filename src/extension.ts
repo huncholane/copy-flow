@@ -3,7 +3,7 @@ import * as clipboardy from "clipboardy";
 
 export function activate(context: vscode.ExtensionContext) {
   const copyDisposable = vscode.commands.registerCommand(
-    "extension.copy",
+    "copy-flow.copy",
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   const pasteDisposable = vscode.commands.registerCommand(
-    "extension.paste",
+    "copy-flow.paste",
     async () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
@@ -52,7 +52,7 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.StatusBarAlignment.Left
   );
   copyButton.text = "$(clippy) Copy";
-  copyButton.command = "extension.copy";
+  copyButton.command = "copy-flow.copy";
   copyButton.tooltip = "Copy editor content";
   copyButton.show();
 
@@ -60,7 +60,7 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.StatusBarAlignment.Left
   );
   pasteButton.text = "$(diff-insert) Paste";
-  pasteButton.command = "extension.paste";
+  pasteButton.command = "copy-flow.paste";
   pasteButton.tooltip = "Paste clipboard content";
   pasteButton.show();
 }
