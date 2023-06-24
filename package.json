@@ -1,7 +1,7 @@
 {
   "name": "copy-flow",
   "displayName": "Copy Flow",
-  "description": "",
+  "description": "Copy or replace your current file with the clipboard.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"
